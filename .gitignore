@@ -2,6 +2,7 @@
 .DS_Store
 Thumbs.db
 
+/__pycache__/
 # Build output directories
 /dist/
 /build/
