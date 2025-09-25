@@ -1,0 +1,71 @@
+
+  <style>
+  /*.footer {
+    position: fixed;    left: 0;    bottom: 0;
+    width: 100%;overflow:auto; 
+    white-space:nowrap;   background-color: black;    color: white;    text-align: right;    margin-right:2rem; font-size:0.8em;
+  }*/
+  .footerr,.details {
+    position: fixed;     bottom: 0;
+    overflow:auto; 
+    background-color: grey;    
+    color: white;    text-align: center; font-size:1em;
+    /*margin-right:-1em;*/
+    max-height: 200px;
+    z-index: 100;
+  }
+  .footerr {
+    right:0;
+    white-space:nowrap;   
+  }
+  .details {
+    width: 100%;
+    white-space:wrap;  
+  }
+
+  </style>
+<p style="margin-top:6ex">
+</p>
+
+  <div class="row footerr narrow-screen" >
+
+  {% for article in catalog %}   
+    {% set thisid='/detail.'~article.id %}
+
+    <div class='details' id='{{thisid}}' style="display: block;width:100%;  overflow-y: scroll; margin-bottom:2em">
+ 
+     <span style="float:right;">
+    <button class='close-details' aria-label="Close Account Info Modal Box" style="font-size: 2em">×</button>
+      </span>
+      <hr style='border:1px solid rgb(200,200,200)'>
+
+
+      <div style='text-align:center'>
+      <h3> ({{article.size}}) {{article.title}} </h3>
+
+      {{article.description}}
+
+      </div>
+  </div>
+  {%endfor%}
+</div><!-- /.row -->
+
+  <div class="row footerr narrow-screen" >
+    <!-- <div class="footer"id="contentinfo" > -->
+      <div class='col-auto mr-auto' style='margin-left:1em'>
+        <a href='#top'>INICIO</a>
+      </div>
+      <div class='col-auto mx-auto wide-screen'>
+ <!-- © 2021 Janus DEV -->
+      {{xx.COPYRIGHT_NOTICE}}
+      </div>
+      <div class='col-auto ml-auto' style= 'margin-right:1em'>
+        <a href='#pedido'>PEDIDO</a>
+      </div>
+<!--     © 2021 Janus PRI --- <a href='https://wa.me/542995711049'>+54 299 5711049 </a>--- 
+      <a href="https://g.page/JanusBio?share" > RN 151 ~ km 24,5 ~ CL Cordero ~ Río Negro ~ ARG </a> -->
+    <!-- </div> -->
+    </div><!-- /.row -->
+
+
+<!-- <footer>text from footer.</footer> -->

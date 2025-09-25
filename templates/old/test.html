@@ -1,0 +1,25 @@
+{% extends "base_buttons.html" %}
+
+{% block style%}
+{% include 'buttons.css' %}
+{% endblock style%}
+
+{% block content %}
+<body>
+    {% include 'search.html' %} 
+	</body>
+
+<!-- <script> window.onload = printCart(); </script> -->
+
+
+
+
+{% endblock content %}
+
+{% block scripts%}
+
+{% include 'buttons.js' %}
+
+{% include 'search.js' %}
+
+{% endblock scripts %}

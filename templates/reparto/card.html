@@ -1,0 +1,57 @@
+{% set thisid='/detail.'~article.id %}
+
+
+<h3 class="card-header narrow-screen" style="background-color:{{mybgcolor}};color:black; min-height:6ex;cursor: pointer;" onclick="expandCard('{{thisid}}-narrow-screen','details');return false; ">
+      {{article.Apellido.upper()}}, {{article.Nombre}} 
+  </h3> 
+<h3 class="card-header wide-screen" style="background-color:{{mybgcolor}};color:black; min-height:6ex;cursor: pointer;" onclick="expandCard('{{thisid}}-wide-screen','details');return false; ">
+      {{article.Apellido.upper()}}, {{article.Nombre}} 
+  </h3>
+
+ <p>
+  <span style="float:left;">
+    F:{{article.F}}/
+    E:{{article.E}}/
+    O:{{article.O}}
+  </span>
+</p>
+
+
+<p>
+
+</p>
+  <p style="text-align: center">
+    {% set gmaps="https://maps.google.com/maps?q="~article.urladdress~"&hl=es&authuser=0" %}
+    <a href={{gmaps}} target='_blank'>
+    {{article.excerpt}}
+  </a>
+
+  </p>
+
+  
+  <p style="padding-top:0em; text-align:center">
+     {% if article.nota != ''%}
+    ({{article.nota}})
+    {%else%}
+
+    {% endif %}
+  </p>
+
+<p style="text-align: center">
+  {% set whatsapp='https://wa.me/+549'~article.size %}
+<a  href={{whatsapp}} target='_blank'>
+  {{article.size}}
+</a>
+</p>
+
+<div style="margin-bottom:0em;padding:0em 0.4em">
+  {% if article.adeuda == '1' and article.pago=='efectivo'%}
+  <span style="float:right;background-color: tomato;color:black">${{article.price}}</span>
+
+  {% endif %}
+  {% if article.adeuda == 0%}
+  <span style="float:right;background-color: green;color:black">${{article.price}}</span>
+
+  {% endif %}
+
+</div>

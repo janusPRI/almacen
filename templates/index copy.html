@@ -1,0 +1,138 @@
+{% extends "base_buttons.html" %}
+
+{% block style%}
+{% include 'buttons.css' %}
+{% endblock style%}
+
+{% block content %}
+<body>
+<a name="top"></a>
+<!-- boton invisible para que funcione A2HS  -->
+<!--     <button class="add-button" style="display:none">Add to home screen</button> -->
+
+<!-- XSSCREEN -->
+<div class="row narrow-screen no-gutters bg-light" >
+    <!-- <div class="col-12 col-md-3 col-lg-2 st wrapper">  -->
+    <div class="col-12 col-md-3 col-lg-4 " style='padding-bottom'> 
+
+    {% include 'header.html' %}
+    {% import 'searchs.html' as s %}
+    {{ s.search(1)}}    
+
+    </div>
+    <div class="col-12 col-md-9 col-lg-8">          
+        <div style="text-align: center">
+        <img src="{{xx.ImagenMostrador}}" alt="" style="width:100%;margin-bottom:0px;" >
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="margin-top:0ex">
+<div class="row" style="min-height:100%">
+<!-- three-columns -->
+        <!-- <div class="col-12 narrow-screen" style="margin:1em;text-align:center"> (1) Elegí una categoría. </div> -->
+   
+    <div class="col-xl-2 wrapper sidebar wide-screen"> 
+    {% include '/sidebar.html' %}
+    </div>
+
+    <div class="col-12 wrapper double-scrol sticky narrow-screen"> 
+        {% include 'buttons.parents.html' %} 
+    </div>
+
+    <!-- </div> -->
+
+<!-- columna del medio -->
+<div class="col-12 col-md  mx-auto">       
+<!--     <p><a id="id-iOSlink" href="." style="margin:2em 0"> </a></p> -->
+    <div class="wide-screen" style="text-align: center">
+    <img src="{{xx.ImagenMostrador}}" alt="" style="max-width:900px;margin-bottom:0px;" >
+    </div>
+
+      <!-- <div class="" style="margin:1em;text-align:center"> (1) Elegí una categoría. </div> -->
+
+    <div style="margin:1em 0;text-align:center"> 
+
+    <!-- <p>(1) Elegí una categoría.</p> -->
+    <!-- <p>(1) Apretá en la foto de lo que querés.</p> -->
+    {% if xx.mensaje.inicial is defined %}
+        {{ xx.mensaje.inicial|safe}}
+    {% else %}
+        <p>(1) Elegí lo que querés.</p>
+    <p>(2) Apretá  <button class='sendCarts' type="submit" id="sendCart">ENVIAR</button>,     así de simple.</p>
+    {%endif%}
+ 
+    </div>
+
+    {% include 'buttons.html' %} 
+
+
+
+   <!--  <div class="wide-screen" >
+    include 'footer.html' %} 
+    </div>
+    -->
+</div> <!-- closes col -->
+<!-- 
+<div class="col-12 col-md-12 bg-light-lg" style='padding:1em;padding-bottom:3em;position: sticky!important; top: 0!important;'>        
+
+ -->
+ <div class="col-12 col-md-12 col-xl-1 bg-light" style=''>     
+
+
+
+</div>
+<!-- /.three columns -->
+</div>	<!-- /. row -->
+</div><!-- /.container -->
+
+
+<div class="container-fluid narrow-screen" >
+        <!-- este sticky hace que este pegado en la columna de widescreen -->
+    <!-- <div class="row " style="width:100%;margin-bottom:2ex;margin-left:0.5em"> -->
+{% if xx.pedido is defined and xx.pedido is sameas true %}
+    <a name="pedido"></a>
+    <div class='myh2 bg-light-1'>Pedido de compra</div> 
+    <!-- </div> -->
+
+
+    <div class='row' style='padding:1em;text-align:center'>
+        {% if xx.mensaje is defined %}
+        <p class="col-12">
+        {{ xx.mensaje.pedido|safe}}
+        </p>  
+        {%endif%}
+<div class="col-12">
+    {% include 'pedido.html' %} 
+    </div>
+<div class="col-12">
+   Retiro en Janus no tiene costo de envio
+</div>
+</div>
+
+
+{% endif %}
+
+    {% include 'links.html' %} 
+
+</div>
+
+    <div style=" width: auto;">
+    {% include xx.subdir~'/footer.html' %}
+    </div>
+
+</body>
+
+<!-- <script> window.onload = printCart(); </script> -->
+
+
+
+
+{% endblock content %}
+
+{% block scripts%}
+
+{% include 'buttons.js' %}
+
+{% include 'search.js' %}
+
+{% endblock scripts %}
