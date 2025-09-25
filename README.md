@@ -1,2 +1,4 @@
 # almacen
-productos de venta
+catálogo de los productos
+
+## Actualización de productos
