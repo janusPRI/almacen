@@ -16,14 +16,14 @@ def main():
 #	locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
 	locale.setlocale(locale.LC_TIME, 'en_US.UTF-8')
 	from datetime import datetime
-	#from backports.zoneinfo import ZoneInfo
+	from zoneinfo import ZoneInfo
 
 	# Define the timezone for Buenos Aires, Argentina
-	#argentina_tz = ZoneInfo("America/Argentina/Buenos_Aires")
+	argentina_tz = ZoneInfo("America/Argentina/Buenos_Aires")
 
 	# Get the current time in the specified timezone
-	#today = datetime.now(argentina_tz)
-	today = datetime.now()
+	today = datetime.now(argentina_tz)
+	#today = datetime.now()
 	css="<hr><p style='font-size: 80%;'><span style='float:left'>Última actualización: </span>"
 	css="<hr><p style='font-size: 80%;'>"
 	fecha = "<span style='float:left; '>"+today.strftime("%d de %B")+"</span>"
