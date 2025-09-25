@@ -13,10 +13,11 @@ def main():
 	import render
 	render.main()
 
-	conf_original=my.join('config/conf.py','config/conf_jorge.py')
+	return
+	#conf_original=my.join('config/conf.py','config/conf_jorge.py')
 	# conf_original=my.join('config/conf.py','config/conf_valledelsol.py')
 	# conf_original=my.join('config/conf.py','config/conf_micael.py')
-	# conf_original=my.join('config/conf.py')
+	conf_original=my.join('config/conf.py')
 	
 	render.main()
 

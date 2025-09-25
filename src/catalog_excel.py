@@ -1,21 +1,56 @@
 import conf as xx
 
+
 # fname='../data/productos.csv'
 
 from myfuncs import *
 import json
 
+
+
+def read_catalog():
+
+
+	file_name = xx.input_file['path']+xx.input_file['name']
+
+	if xx.input_file['ext'] in 'xlsx':
+		excel_data = list(read_xlsx_as_dict_list(file_name+'.xlsx',3))
+
+		for element in excel_data:
+			for key in list(element):
+			    if key is None:
+			    	del element[key]
+#			print(element) 			    	
+#			creo que o esta andando el delete
+
+		# Specify the output file name
+		output_file = file_name+".json"
+
+		# Open the file in write mode and use json.dump() to write the data
+		with open(output_file, "w", encoding='utf-8') as f:
+		    json.dump(excel_data, f, ensure_ascii=False, indent=4) # 'indent=4' makes the JSON output human-readable
+
+		print(f"Data successfully written to {output_file} from {file_name}.xlsx")
+
+	if xx.input_file['ext'] in 'json':
+	    with open(file_name+'.json', 'r') as f:
+	        excel_data = json.load(f)
+
+	return excel_data
+
+    
+
+	
+
+
 def set_catalog():
+
 	catalog=[]
-	for file in xx.input_files:
-		with open(file, 'r') as f:
-			json_data = json.load(f)
-		catalog.extend(json_data)
-		#catalog.extend(ReadCSV(file))
+	#for file in xx.input_files:
+	#	catalog.extend(ReadCSV(file))
+	
+	catalog.extend(read_catalog())
 
-
-
-	# print(catalog)
 	catalog.sort(key=lambda k: k[xx.parents['col_title']])
 
 	# for row in catalog:
@@ -41,7 +76,7 @@ def set_catalog():
 		parent=categories_list[0].strip().lower()
 		if parent=='':
 			continue
-		print(parent)
+		# print(parent)
 		parent=clean_parents([parent])[0]
 		
 		# Si existen categorías hijos y nietos las guardo
@@ -52,9 +87,8 @@ def set_catalog():
 				if len(categories_list)>2:
 					grandchild=categories_list[2];
 
-		print(parent)
-
-		print(xx.parents['undesired'])
+		# print(parent)
+		# print(xx.parents['undesired'])
 
 		if xx.parents['only']:
 			if parent not in xx.parents['only']:
@@ -76,7 +110,9 @@ def set_catalog():
 								article['status']='draft'
 					if 'status' in article:
 						# return article['status']=='publish' and ('outofstock' not in article['visibility']) and article['title'] not in conf.undesired_articles
-						return article['status']=='publish'  and article['title'] not in conf.undesired_articles
+						return article['status']in ('publish', 'disponible')  and article['title'] not in conf.undesired_articles
+					if 'stock' in article:
+						return article['stock']>0
 					else:
 						return True
 
@@ -124,7 +160,9 @@ def create_parents_dict(unique_parents):
 	#Fondos fuertes que se ven bien con letras blancas o negras
 	#"Tomato","orange","dodgerBlue","MediumSeaGreen","rgba(248,228,113,1)","SlateBlue"
 	#Fondos claros que se ven con letras negras
-	"LightSalmon","DarkSeaGreen","LightSteelBlue","PaleGoldenRod","Tan","DarkKhaki","Thistle","Tomato","orange","dodgerBlue","MediumSeaGreen","rgba(248,228,113,1)","SlateBlue"]
+	# "LightSalmon",
+	# "DarkSeaGreen",
+	"LightSteelBlue","PaleGoldenRod","Tan","DarkKhaki","Thistle","Tomato","orange","dodgerBlue","MediumSeaGreen","rgba(248,228,113,1)","SlateBlue"]
 	#NavajoWhite parecido al bisque
 	#"Plum"
 

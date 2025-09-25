@@ -46,7 +46,7 @@ if 'LINKS' not in locals():
     ('e-mail: '+showEMAIL(EMAIL),'mailto: '+EMAIL)
     )
 
-input_files=['../data/productos.csv'] #,'../data/semillas.csv']
+input_files=['../data/productos.json'] #,'../data/semillas.csv']
 if 'output_file' not in locals():
   print('entro en output')
   output_file='../public/index.html'
