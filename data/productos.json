@@ -104,19 +104,19 @@
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "publish",
+        "status": "unpublish",
         "description": "Uvas enteras (con cabito) secadas al calor de sol. Gustosas y aromatizadas. Experimente un sabor tan único como natural. Mantener en un envase hermético.\n\nPueden ser comidas crudas o empleadas en platos, pasteles y repostería. Resulta beneficiosa para el cuerpo al ayudar a resolver problemas intestinales como el estreñimiento y ralentiza el envejecimiento prematuro de la piel, al contener antioxidantes."
     },
     {
         "title": "Manzana deshidratada",
-        "price": "2000",
+        "price": "3000",
         "excerpt": "Contenido: 60 gramos",
         "images": "manzana-deshidratada.jpeg",
         "categories": "Deshidratados>Frutas|Productos Elaborados",
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "unpublish",
+        "status": "publish",
         "description": "Rodajas de Manzanas Red Delicioiu secadas al calor de sol. Experimente un sabor tan único como natural. Mantener en un envase hermético."
     },
     {
