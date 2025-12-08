@@ -169,7 +169,7 @@
     },
     {
         "title": "Crema untable de BERENJENA",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-berenjena.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -181,7 +181,7 @@
     },
     {
         "title": "Crema untable de ZANAHORIA",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-zanahoria.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -193,7 +193,7 @@
     },
     {
         "title": "Crema untable de BROCOLI",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-brocoli.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -205,7 +205,7 @@
     },
     {
         "title": "Crema untable de COLIFLOR",
-        "price": "3000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-coliflor.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -217,7 +217,7 @@
     },
     {
         "title": "Crema untable de GALLINA",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-gallina.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -229,7 +229,7 @@
     },
     {
         "title": "Crema untable de REMOLACHA",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-remolacha.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -241,7 +241,7 @@
     },
     {
         "title": "Crema untable de NABO",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-nabo.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -253,7 +253,7 @@
     },
     {
         "title": "Crema untable de ZANAHORIA",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-zanahoria.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
@@ -350,7 +350,7 @@
     {
         "title": "Chutney de TOMATE suave",
         "price": "3500",
-        "excerpt": "Contenido: 360 cc",
+        "excerpt": "Contenido: 200 cc",
         "images": "chutney-de-tomate-suave.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
         "tags": "",
@@ -673,7 +673,7 @@
     },
     {
         "title": "Jugo de CIRUELA",
-        "price": "7000",
+        "price": "8000",
         "excerpt": "Contenido: 1.000 cc",
         "images": "jugo-de-ciruela.jpeg",
         "categories": "Productos Elaborados>Jugos y Bebidas",
@@ -877,14 +877,14 @@
     },
     {
         "title": "Crema untable de BERENJENA",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-berenjena.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "draft",
+        "status": "publish",
         "description": "De esto hablamos cuando afirmamos que JANUS Proyecto Rural Integrador te regala una verdadera \"Experiencia Biodinámica\". Nuestras <strong>8 variedades de Cremas untables</strong> son creación de la Naturaleza. Verduras biodinámicas cosechadas cuando nos lo pide la huerta. En la cocina se acondicionan apropiadamente  y se preparan sin secretos. El resultado te sorprenderá. Productos frescos y sanos como ningún otro. Para untar en nuestros Grisines crocantes, pan recién tostado o realzar colores y sabores de ensaladas, caldos, sopas, guisos o arroz. No pongas límite a tu imaginación.  Probalo y comentanos tu experiencia.\n\nEnvasamos artesanalmente los excedentes de nuestra producción estacional. Todas los envases de vidrio se estabilizan por pasteurización. Absolutamente natural, sin agregar conservantes ni sustancias estabilizadoras. Una vez abierto conservar en heladera y consumir en una semana."
     },
     {
@@ -1129,7 +1129,7 @@
     },
     {
         "title": "Jugo de MANZANA",
-        "price": "7000",
+        "price": "8000",
         "excerpt": "Contenido: 1.000 cc",
         "images": "jugo-de-manzana.jpeg",
         "categories": "Productos Elaborados>Jugos y Bebidas",
@@ -1141,7 +1141,7 @@
     },
     {
         "title": "Jugo de CIRUELA + UVA",
-        "price": "7000",
+        "price": "8000",
         "excerpt": "Contenido: 1.000 cc",
         "images": "jugo-de-ciruela-uva.jpeg",
         "categories": "Productos Elaborados>Jugos y Bebidas",
@@ -1153,7 +1153,7 @@
     },
     {
         "title": "Jugo de MANZANA + UVA",
-        "price": "7000",
+        "price": "8000",
         "excerpt": "Contenido: 1.000 cc",
         "images": "jugo-de-manzana-uva.jpeg",
         "categories": "Productos Elaborados>Jugos y Bebidas",
@@ -1165,7 +1165,7 @@
     },
     {
         "title": "Jugo de UVA",
-        "price": "7000",
+        "price": "8000",
         "excerpt": "Contenido: 1.000 cc",
         "images": "jugo-de-uva.jpeg",
         "categories": "Productos Elaborados>Jugos y Bebidas",
