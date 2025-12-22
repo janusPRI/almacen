@@ -157,14 +157,14 @@
     },
     {
         "title": "Caldo de GALLINA",
-        "price": "3000",
+        "price": "5000",
         "excerpt": "Contenido: 360 cc",
         "images": "caldo-de-gallina.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "draft",
+        "status": "publish",
         "description": "Sólo Caldo de Gallina, alimentadas con nuestras verduras y maiz biodinámico. Llevalo a tu mesa listo para incorporarlo a tus preparaciones o disfrutarlo en una taza con los ojos cerrados para revivir sabores olvidados. Siempre en la búsqueda de nuevas sensaciones, el resultado te sorprenderá. Naturales y sanos como ningún otro. Diluir a tu gusto para consumir como bebida revitalizadora, saborizar arroz, guisos o salsas. Probalo y comentanos tu experiencia.\n\nEnvasamos artesanalmente los excedentes de nuestra producción estacional. Todas los envases de vidrio se estabilizan por pasteurización. Absolutamente natural, sin agregar conservantes ni sustancias estabilizadoras. Una vez abierto conservar en heladera y consumir en una semana o dos."
     },
     {
@@ -272,7 +272,7 @@
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "publish",
+        "status": "unpublish",
         "description": "El <strong>Escabeche</strong> es un método de conservación de alimentos en <strong>vinagre</strong>. Se llama así también al alimento así obtenido. El método para procesar un alimento en escabeche está dentro de las operaciones denominadas en cocina como <strong>Marinado</strong>.\n\nDe esto hablamos cuando afirmamos que JANUS Proyecto Rural Integrador te regala una verdadera \"Experiencia Biodinámica\". Nuestros Escabeches son creación de la Naturaleza y nosotros sólo somos el medio que elegistes para acercarlos a tu mesa.\n\nCombinamos verduras biodinámicas cosechadas cuando nos lo pide la huerta. En la cocina se acondicionan apropiadamente  y se preparan sin secretos. El resultado te sorprenderá. Productos frescos y sanos como ningún otro. Para consumir fríos con nuestros Grisines crocantes, pan fresco o recién tostado. Probalos y comentanos tu experiencia.\n\nEnvasamos artesanalmente los excedentes de nuestra producción estacional. Todas los envases de vidrio se estabilizan por pasteurización. Absolutamente natural, sin agregar conservantes ni sustancias estabilizadoras. Una vez abierto conservar en heladera y consumir en una semana o dos."
     },
     {
