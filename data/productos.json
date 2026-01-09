@@ -186,9 +186,9 @@
         "images": "crema-untable-de-zanahoria.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
         "tags": "",
-        "type": "simple",
+        "type": "simple"
         "visibility": "featured",
-        "status": "unpublish",
+        "status": "publish",
         "description": "De esto hablamos cuando afirmamos que JANUS Proyecto Rural Integrador te regala una verdadera \"Experiencia Biodinámica\". Nuestras <em><strong>8 variedades de Cremas para untar</strong></em> son creación de la Naturaleza. Verduras biodinámicas cosechadas cuando nos lo pide la huerta. En la cocina se acondicionan apropiadamente  y se preparan sin secretos. El resultado te sorprenderá. Productos frescos y sanos como ningún otro. Para untar en nuestros Grisines crocantes, pan recién tostado o realzar colores y sabores de ensaladas, caldos, sopas, guisos o arroz. No pongas límite a tu imaginación.  Probalo y comentanos tu experiencia.\n\nEnvasamos artesanalmente los excedentes de nuestra producción estacional. Todas los envases de vidrio se estabilizan por pasteurización. Absolutamente natural, sin agregar conservantes ni sustancias estabilizadoras. Una vez abierto conservar en heladera y consumir en una semana."
     },
     {
@@ -1201,14 +1201,14 @@
     },
     {
         "title": "Ajo en polvo",
-        "price": "2000",
+        "price": "3000",
         "excerpt": "Contenido: 20 gramos",
         "images": "ajo-en-polvo.jpeg",
         "categories": "Deshidratados>Condimentos|Productos Elaborados",
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "unpublish",
+        "status": "publish",
         "description": "Ajo secado al sol y finamente molido; gustoso y extremadamente aromatizado.  Experimente un sabor tan único como natural. Una pizquita es más que suficiente para sentir el sabor de lo diferente. Mantener en un envase hermético."
     },
     {
