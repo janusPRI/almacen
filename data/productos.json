@@ -30,9 +30,9 @@
         "images": "tomate-triturado-500-cc.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
         "tags": "",
-        "type": "simple",
+        "type": "simple"
         "visibility": "featured",
-        "status": "publish",
+        "status": "unpublish",
         "description": "Envasamos artesanalmente los excedentes de nuestra producción estacional. Todas las botellas se estabilizan por pasteurización. Absolutamente natural. Una vez abierto conservar en heladera y consumir en la semana."
     },
     {
@@ -277,14 +277,14 @@
     },
     {
         "title": "Escabeche de GALLINA",
-        "price": "5000",
+        "price": "10000",
         "excerpt": "Contenido: 360 cc",
         "images": "escabeche-de-gallina.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "unpublish",
+        "status": "publish",
         "description": "El <strong>Escabeche</strong> es un método de conservación de alimentos en <strong>vinagre</strong>. Se llama así también al alimento así obtenido. El método para procesar un alimento en escabeche está dentro de las operaciones denominadas en cocina como <strong>Marinado</strong>.\n\nDe esto hablamos cuando afirmamos que JANUS Proyecto Rural Integrador te regala una verdadera \"Experiencia Biodinámica\". Nuestros Escabeches son creación de la Naturaleza y nosotros sólo somos el medio que elegistes para acercarlos a tu mesa.\n\nCombinamos verduras biodinámicas cosechadas cuando nos lo pide la huerta. En la cocina se acondicionan apropiadamente  y se preparan sin secretos. El resultado te sorprenderá. Productos frescos y sanos como ningún otro. Para consumir fríos con nuestros Grisines crocantes, pan fresco o recién tostado. Probalos y comentanos tu experiencia.\n\nEnvasamos artesanalmente los excedentes de nuestra producción estacional. Todas los envases de vidrio se estabilizan por pasteurización. Absolutamente natural, sin agregar conservantes ni sustancias estabilizadoras. Una vez abierto conservar en heladera y consumir en una semana o dos."
     },
     {
@@ -685,7 +685,7 @@
     },
     {
         "title": "CAÑA con ruda (Petaquita)",
-        "price": "5000",
+        "price": "6000",
         "excerpt": "Contenido: 230 cc",
         "images": "cana-con-ruda-petaquita.jpeg",
         "categories": "Productos Elaborados>Jugos y Bebidas>alcóholicas",
@@ -1249,7 +1249,7 @@
     },
     {
         "title": "Caldo de VERDURAS en Polvo (instantáneo)",
-        "price": "2000",
+        "price": "3000",
         "excerpt": "Contenido: 30 gr",
         "images": "caldo-de-verduras-en-polvo-instantaneo.jpeg",
         "categories": "Deshidratados>Verduras",
