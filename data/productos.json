@@ -44,7 +44,7 @@
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "publish",
+        "status": "unpublish",
         "description": "Envasamos artesanalmente los excedentes de nuestra producción estacional. Todas las botellas se estabilizan por pasteurización. Absolutamente natural. Una vez abierto conservar en heladera y consumir en la semana."
     },
     {
@@ -104,7 +104,7 @@
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "publish",
+        "status": "unpublish",
         "description": "Uvas enteras (con cabito) secadas al calor de sol. Gustosas y aromatizadas. Experimente un sabor tan único como natural. Mantener en un envase hermético.\n\nPueden ser comidas crudas o empleadas en platos, pasteles y repostería. Resulta beneficiosa para el cuerpo al ayudar a resolver problemas intestinales como el estreñimiento y ralentiza el envejecimiento prematuro de la piel, al contener antioxidantes."
     },
     {
@@ -260,7 +260,7 @@
         "tags": "",
         "type": "simple",
         "visibility": "featured",
-        "status": "unpublish",
+        "status": "publish",
         "description": "El <strong>Escabeche</strong> es un método de conservación de alimentos en <strong>vinagre</strong>. Se llama así también al alimento así obtenido. El método para procesar un alimento en escabeche está dentro de las operaciones denominadas en cocina como <strong>Marinado</strong>.\n\nDe esto hablamos cuando afirmamos que JANUS Proyecto Rural Integrador te regala una verdadera \"Experiencia Biodinámica\". Nuestros Escabeches son creación de la Naturaleza y nosotros sólo somos el medio que elegistes para acercarlos a tu mesa.\n\nCombinamos verduras biodinámicas cosechadas cuando nos lo pide la huerta. En la cocina se acondicionan apropiadamente  y se preparan sin secretos. El resultado te sorprenderá. Productos frescos y sanos como ningún otro. Para consumir fríos con nuestros Grisines crocantes, pan fresco o recién tostado. Probalos y comentanos tu experiencia.\n\nEnvasamos artesanalmente los excedentes de nuestra producción estacional. Todas los envases de vidrio se estabilizan por pasteurización. Absolutamente natural, sin agregar conservantes ni sustancias estabilizadoras. Una vez abierto conservar en heladera y consumir en una semana o dos."
     },
     {
@@ -528,7 +528,7 @@
         "description": "Con Pomelos de algunos jardines de por aquí nomás hacemos el jugo que da un toque especial al clásico dulce de nuestras Manzanas Red Delicious. El resultado te sorprenderá. Productos sanos como ningún otro. Este dulce lleva 500 gr de azúcar por kilogramo de fruta. Probalo y comentanos tu experiencia.\n\nEnvasamos artesanalmente los excedentes de nuestra producción estacional. Todas los envases de vidrio se estabilizan por pasteurización. Absolutamente natural, sin conservantes ni sustancias estabilizadoras. Una vez abierto conservar en heladera y consumir en una semana.\n\nPor cualquier comentario sobre la condición del producto, por favor referirnos al número de identificación en la tapa para cotejar con los datos que tenemos de cada partida envasada. Todo comentario nos ayuda a mejorar. ¡Gracias!\n\n&nbsp;"
     },
     {
-        "title": "Dulce de MORA",
+        "title": "Dulce de ZARZAMORA",
         "price": "8000",
         "excerpt": "Contenido: 360 cc (500 gr aprox)",
         "images": "dulce-de-mora.jpeg",
@@ -853,7 +853,7 @@
     },
     {
         "title": "Crema untable de RABANITO",
-        "price": "4000",
+        "price": "5000",
         "excerpt": "Contenido: 200 gr",
         "images": "crema-untable-de-rabanito.jpeg",
         "categories": "Productos Elaborados>Conservas de Hortalizas",
