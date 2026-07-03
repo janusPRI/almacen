@@ -84,10 +84,10 @@ articles['undesired']=['semillas agroecológicas']
 
 # articles['outofstock']=['entrega semanal completa','bolsón de productos envasados']
 #PEDIDOS
-pedido=True
+pedido=False
 
 #MENSAJES
 mensaje={}
 
 mensaje['pedido']='' #'Compra mínima: $3000'
-
+mensaje['inicial']='Mira el catálogo por WhasApp'
